@@ -60,8 +60,8 @@ export default function RootLayout({
             {children}
           </div>
           <Footer />
-          {/* <Analytics />
-          <SpeedInsights /> */}
+          <Analytics />
+          <SpeedInsights />
         </main>
       </body>
     </html>
