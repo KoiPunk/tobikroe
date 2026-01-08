@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { PageDoll } from '../components/pagedoll'
 
 export const metadata = {
