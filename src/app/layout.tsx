@@ -2,11 +2,12 @@ import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import Footer from './components/footer'
 import { baseUrl } from './sitemap'
+
+import Navbar from './components/nav'
+import Footer from './components/footer'
 import { PageDoll } from './components/pagedoll'
 
 export const metadata: Metadata = {
@@ -54,7 +55,7 @@ export default function RootLayout({
       )}
     >
       <body className="antialiased">
-        <main>
+        <div>
           <Navbar />
           <div className="min-h-screen">
             {children}
@@ -62,7 +63,7 @@ export default function RootLayout({
           <Footer />
           <Analytics />
           <SpeedInsights />
-        </main>
+        </div>
       </body>
     </html>
   )

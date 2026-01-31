@@ -23,7 +23,7 @@ export function BlogPosts() {
           >
             <div className="">
               {/* Cover image */}
-              <img src="" alt=""/>
+              {/* <img src="" alt=""/> */}
 
               <div className="pt-6 pb-7 px-6">
                 <div className="text-neutral-600 dark:text-neutral-400 flex text-xs tabular-nums mb-3">

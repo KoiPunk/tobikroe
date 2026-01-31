@@ -1,14 +1,12 @@
 import Link from 'next/link'
 
 // array of objs
-const characters = [
-    {name: "Clover", url: "/clover"},
-    {name: "Stranger", url: "/stranger"},
-    {name: "Furnace", url: "/furnace"}
+const animals = [
+    {name: "", url: "/"}
 ];
 
 // convert characters into lists
-const listCharacters = characters.map(character => {
+const listCharacters = animals.map(character => {
     return (
         <li>
             <Link key={"/art/oular/characters" + character.url} href={"/art/oular/characters" + character.url}>

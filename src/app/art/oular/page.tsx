@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Page() {
     return (
-        <section className="bg-black min-h-screen text-white tracking-widest">
+        <section className="bg-black min-h-screen text-white tracking-widest font-thin">
             <div className="max-w-5xl mx-auto">
                 <h1 className="text-6xl text-center pt-16 pb-6">Welcome to the Oular System</h1>
                 <p className="text-center mb-24">
@@ -23,7 +23,7 @@ export default function Page() {
                 
                 {/* Planets */}
                 <h2 className="text-2xl mb-6">Planets</h2>
-                <div className="flex w-fit mx-auto mb-20 space-x-6">
+                <div className="grid grid-cols-3 w-fit mx-auto mb-20 space-x-6">
                     <Link href="/art/oular/planets">
                         <img src="/oular/canis_icon.png" alt="" className="max-w-56"/>
                     </Link>
@@ -49,7 +49,7 @@ export default function Page() {
 
                 {/* Space Crafts */}
                 <h2 className="text-2xl mb-6">Space Crafts</h2>
-                <div className="flex w-fit mx-auto mb-20 space-x-6">
+                <div className="grid grid-cols-3 w-fit mx-auto mb-20 space-x-6">
                     <Link href="/404">
                         <img src="/oular/.png" alt="" className=""/>
                     </Link>
@@ -78,39 +78,3 @@ export default function Page() {
         </section>
     )
 }
-
-// // worlds' most insane ducttaping
-// <div className="grid grid-cols-11 grid-rows-10 text-black">
-//     <div className="col-start-1 col-span-2">space</div>
-//     <div className="col-span-2 row-span-2">
-//         <img src="/oular/canis_icon.png" alt="" className="max-h-72"/>
-//     </div>
-//     <div className="col-start-5 col-span-3 row-span-2">space</div>
-//     <div className="col-span-2 row-span-2">
-//         <img src="/oular/canis_icon.png" alt="" className="max-h-56 mt-5 ml-12"/>
-//     </div>
-//     <div className="col-span-2">space</div>
-//     <div className="col-span-2 row-span-6">
-//         <img src="/oular/ol_icon.png" alt="" className="mt-8"/>
-//     </div>
-//     <div className="col-start-3 col-span-2 row-span-4">space</div>
-//     <div className="col-start-5 col-span-3 row-span-3">
-//         <img src="/oular/canis_icon.png" alt="" className="h-full"/>
-//     </div>
-//     <div className="col-span-2 row-span-2">space</div>
-//     <div className="col-start-10 col-span-2 row-start-2 row-span-6">
-//         <img src="/oular/oll_icon.png" alt="" className=""/>
-//     </div>
-//     <div className="col-span-2 row-span-2">
-//         <img src="/oular/canis_icon.png" alt="" className="h-72"/>
-//     </div>
-//     <div className="col-span-3 row-span-1">space</div>
-//     <div className="col-span-2 row-span-2">
-//         <img src="/oular/canis_icon.png" alt="" className="h-72"/>
-//     </div>
-//     <div className="col-start-1 col-span-2 row-span-3">space</div>
-//     <div className="col-start-5 row-start-7 row-span-2">space</div>
-//     <div className="col-start-6 col-span-4 row-start-7 row-span-4">
-//         <img src="/oular/canis_icon.png" alt="" className="h-full"/>
-//     </div>
-// </div>

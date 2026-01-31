@@ -1,18 +1,25 @@
 import { PageDoll } from '../components/pagedoll'
+import Contact from '../components/contact'
 
+// an object of the metadata
 export const metadata = {
   title: 'About',
-  description: 'Read my about.',
+  description: 'About TOBIKROE!',
 }
 
 export default function Page() {
   return (
     <div className="w-fit mx-auto pt-16 px-8">
         {/* <PageDoll /> */}
-        <section className="flex space-x-8 items-center mb-14">
-            <img src="/me.png" alt="" className="w-sm min-h-full"/>
+        <main className="md:flex space-x-8 items-center mb-14">
+
+            {/* only shows up in small screen! */}
+            <h1 className="md:hidden text-2xl font-semibold mb-4 sm:mb-8 text-center">Welcome to the <br className="sm:hidden"/> TOBIKROE variety show!</h1>
+
+            <img src="/me.png" alt="" className="w-80 mx-auto mb-8 lg:w-sm min-h-full"/>
             <div className="max-w-xl">
-                <h1 className="text-2xl font-semibold mb-4">Welcome to the TOBIKROE variety show!</h1>
+                {/* hidden when in small screen */}
+                <h1 className="hidden md:block text-2xl font-semibold mb-4">Welcome to the TOBIKROE variety show!</h1>
                 <p>I am a computer science major who's working towards becoming an astronomy researcher and understand the orgin of life! 
 
                     <br/><br/>This site is a sort of portfolio/journal of my learning journey here on Earth. 
@@ -27,18 +34,9 @@ export default function Page() {
                     <div className="bg-black text-white px-8 py-2">Contact</div>
                 </div>
             </div>
-        </section>
+        </main>
         
-        <section className="bg-neutral-200 pb-24">
-            <h2>Leave a message!</h2>
-            <p>* INDICATES REQUIRED FIELD</p>
-            <div className="flex">
-                <div>name *</div><div>contact *</div>
-            </div>
-            <div>subject *</div>
-            <div>word *</div>
-                <div className="bg-black text-white w-fit px-8 py-2">Contact</div>
-        </section>
+        <Contact/>
     </div>
   )
 }
