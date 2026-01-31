@@ -25,7 +25,7 @@ export default function Page() {
             <main className="grow">
 
             <section className="bg-amber-50 border_window mb-4">
-                <marquee className="text-center font-semibold mb-2">Welcome to my silly site!!</marquee>
+                {/* <marquee className="text-center font-semibold mb-2">Welcome to my silly site!!</marquee> */}
             </section>
 
             <section className="bg-amber-50 border_window mb-4">
