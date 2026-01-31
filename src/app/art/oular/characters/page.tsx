@@ -10,8 +10,8 @@ const characters = [
 // convert characters into lists
 const listCharacters = characters.map(character => {
     return (
-        <li>
-            <Link key={"/art/oular/characters" + character.url} href={"/art/oular/characters" + character.url}>
+        <li key={"/art/oular/characters" + character.url}>
+            <Link href={"/art/oular/characters" + character.url}>
                 {character.name}
             </Link>
         </li>
