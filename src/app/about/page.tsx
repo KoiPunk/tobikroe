@@ -16,7 +16,7 @@ export default function Page() {
             {/* only shows up in small screen! */}
             <h1 className="md:hidden text-2xl font-semibold mb-4 sm:mb-8 text-center">Welcome to the <br className="sm:hidden"/> TOBIKROE variety show!</h1>
 
-            <img src="/me.png" alt="" className="w-80 mx-auto mb-8 lg:w-sm min-h-full"/>
+            <img src="/me.png" alt="" className="w-80 mx-auto mb-8 lg:w-sm min-h-full mr-2"/>
             <div className="max-w-xl">
                 {/* hidden when in small screen */}
                 <h1 className="hidden md:block text-2xl font-semibold mb-4">Welcome to the TOBIKROE variety show!</h1>

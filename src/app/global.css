@@ -1,9 +1,40 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-notepad: #fff69a;
-  --color-notepad-hori: #93cd9a;
   --color-notepad-vert: #c97940;
+}
+
+/* make the section a notepad, mostly inspired by https://codepen.io/designcouch/pen/bGvzKE?editors=1100 */
+.bg-notepad {
+  background-color: #fff69a;
+  h3 {
+    padding-top: 1.4rem;
+    margin-left: 1.8rem;
+    margin-bottom: -.4rem;
+    border-style: double;
+    border-left-width: 3px;
+    border-left-color: #c97940;
+  }
+  ul {
+    background: linear-gradient(to bottom, #fff69a 24.6px, #93cd9a 1px);
+    background-size: 100% 25.6px;
+    padding-left: 1.8rem;
+    padding-right: 1rem;
+    background-position-y:1px;
+  }
+  li {
+    border-style: double;
+    border-left-width: 3px;
+    border-left-color: #c97940;
+    padding-left: .4rem;
+    padding-bottom: .1rem;
+  }
+  li:first-child {
+    padding-top: 8px;
+  }
+  li:last-child {
+    padding-bottom: 1.2rem;
+  }
 }
 
 .border_braid {

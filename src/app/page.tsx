@@ -43,15 +43,18 @@ export default function Page() {
 
             <aside className="min-w-52">
 
-                <section className="bg-amber-50  mb-4">
+                {/*Todo */}
+                <section className="mb-4 shadow-md">
                     <Todo/>
                 </section>
 
+                {/* Web traffic */}
                 <section className="bg-amber-50 border_window mb-4">
                 <h3 className="text-center font-semibold mb-2">Hits & Visitors</h3>
                     LOREM IPSUM
                 </section>
 
+                {/* Music player */}
                 <Boombox/>
 
             </aside>
