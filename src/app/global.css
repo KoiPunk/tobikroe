@@ -1,8 +1,10 @@
 @import 'tailwindcss';
 
-/* @theme static {
-  --spacing: 142rem;
-} */
+@theme {
+  --color-notepad: #fff69a;
+  --color-notepad-hori: #93cd9a;
+  --color-notepad-vert: #c97940;
+}
 
 .border_braid {
   border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAIFJREFUOE9jZKABYKSBmQxYDZWSC/6PbtmzR2sZcYmjq8UwFKQRZAC6QlLEUTTDXEKqoSAHIOuBG4rsEnK8j6wfp6HYXIsvSEYNhacaomMfVybBlmJGIwoSWuiJnybplNQCBWvih7kWPR/DDMdXoODM+8RoJragoU95So2agCbVCQDV5ugWwchaVgAAAABJRU5ErkJggg==') 7 /  7px / 0 round;

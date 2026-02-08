@@ -43,8 +43,8 @@ export default function Page() {
 
             <aside className="min-w-52">
 
-                <section className="bg-amber-50 border_window mb-4">
-                    {<Todo/>}
+                <section className="bg-amber-50  mb-4">
+                    <Todo/>
                 </section>
 
                 <section className="bg-amber-50 border_window mb-4">
@@ -52,9 +52,7 @@ export default function Page() {
                     LOREM IPSUM
                 </section>
 
-                <section className="bg-amber-50 border_window">
-                    <h3 className="text-center font-semibold mb-2">Music!</h3>
-                </section>
+                <Boombox/>
 
             </aside>
         </section>
