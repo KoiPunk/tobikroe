@@ -9,6 +9,7 @@ export default function Boombox() {
     return (
         <>
             {/* <img src="/boombox.png" alt="" onClick={playMusic}></img> */}
+            {/* <img src="/boombox.png" alt=""></img> */}
             <audio controls src="/audio/duster_moon_age.mp3"></audio>
         </>
     )

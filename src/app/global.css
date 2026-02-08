@@ -1,10 +1,13 @@
 @import 'tailwindcss';
 
-@theme {
-  --color-notepad-vert: #c97940;
+/* make the div a newspaper */
+.bg-newspaper {
+  background-color: #f9f7f1;
 }
 
-/* make the section a notepad, mostly inspired by https://codepen.io/designcouch/pen/bGvzKE?editors=1100 */
+
+/* make the div a notepad, mostly inspired by https://codepen.io/designcouch/pen/bGvzKE?editors=1100 */
+/* TODO: fix the text not lining up with baseline when small screen */
 .bg-notepad {
   background-color: #fff69a;
   h3 {

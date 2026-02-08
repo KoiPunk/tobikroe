@@ -6,7 +6,7 @@ export default function ChangeTheme() {
             </h3>
         
             <div>
-                <input type="radio" id="light" name="theme" value="light" checked />
+                <input type="radio" id="light" name="theme" value="light"/>
                 <label htmlFor="light">Light</label>
                 <br/>
                 

@@ -6,8 +6,8 @@ const navItems = [
     {name: "Blog", url: "/blog"},
     {name: "About", url: "/about"},
     {name: "Oular System", url: "/art/oular"},
-    {name: "Store", url: "/store"},
-    {name: "Project", url: "/project"}
+    // {name: "Store", url: "/store"},
+    // {name: "Project", url: "/project"}
 ];
 
 // Convert navItems into lists

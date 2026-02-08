@@ -3,7 +3,7 @@
 
 export default function Todo() {
     return (
-        <div className="bg-notepad">
+        <div className="bg-notepad shadow-md">
             <h3 className="text-center font-semibold">TODO</h3>
             <ul>
                 <li className="line-through">Make a TODO list</li>

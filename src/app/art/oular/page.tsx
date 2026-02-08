@@ -24,27 +24,27 @@ export default function Page() {
                 {/* Planets */}
                 <h2 className="text-2xl mb-6">Planets</h2>
                 <div className="grid grid-cols-3 w-fit mx-auto mb-20 space-x-6">
-                    <Link href="/art/oular/planets">
+                    <Link href="/art/oular/canis">
                         <img src="/oular/canis_icon.png" alt="" className="max-w-56"/>
                     </Link>
-                    <Link href="/art/oular/planets">
+                    <Link href="/art/oular/veilia">
                         <img src="/oular/veilia_icon.png" alt="" className="max-w-64"/>
                     </Link>
-                    <Link href="/art/oular/planets">
+                    {/* <Link href="/404">
                         <img src="/oular/planet_placeholder.png" alt="" className=""/>
                     </Link>
-                    <Link href="/art/oular/planets">
+                    <Link href="/404">
                         <img src="/oular/planet_placeholder.png" alt="" className=""/>
                     </Link>
-                    <Link href="/art/oular/planets">
+                    <Link href="/404">
                         <img src="/oular/planet_placeholder.png" alt="" className=""/>
                     </Link>
-                    <Link href="/art/oular/planets">
+                    <Link href="/404">
                         <img src="/oular/planet_placeholder.png" alt="" className=""/>
                     </Link>
-                    <Link href="/art/oular/planets">
+                    <Link href="/404">
                         <img src="/oular/planet_placeholder.png" alt="" className=""/>
-                    </Link>
+                    </Link> */}
                 </div>
 
                 {/* Space Crafts */}
